@@ -1,9 +1,10 @@
- 
+///// <reference path="../../typings/main.d.ts" />
 
-import {IBaseRepository} from "./IBaseRepository";
+import { IBaseRepository } from "./IBaseRepository";
 import mongoose = require("mongoose");
 
-class BaseRepository<T extends mongoose.Document> implements IBaseRepository<T> {
+class BaseRepository<T extends mongoose.Document>
+implements IBaseRepository<T> {
 
     private _model: mongoose.Model<mongoose.Document>;
 
@@ -41,4 +42,4 @@ class BaseRepository<T extends mongoose.Document> implements IBaseRepository<T> 
 
 }
 
-export {BaseRepository};
+export { BaseRepository };
