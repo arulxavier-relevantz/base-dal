@@ -1,5 +1,3 @@
-///// <reference path="../../typings/main.d.ts" />
-
 import { IBaseRepository } from "./IBaseRepository";
 import mongoose = require("mongoose");
 
