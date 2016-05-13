@@ -1,6 +1,6 @@
 {
   "name": "base-dal",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Base data access layer",
   "main": "index.js",
   "scripts": {
