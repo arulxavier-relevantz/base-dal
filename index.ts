@@ -1,2 +1,3 @@
 // DAO
-export * from "./lib/dao/IBaseDAO"
+export { BaseDAO } from "./lib/dao/BaseDAO"
+export { IBaseDAO } from "./lib/dao/IBaseDAO"
